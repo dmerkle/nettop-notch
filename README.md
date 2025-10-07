@@ -38,7 +38,7 @@ nettop rates watch  [2025-10-07T09:35:06]  interval=3.0s  group=process  thresho
         0.0          0.0          0.0   zoom.us.25935                   en0           Established   2407:31c0:182::aa72:3489.443  [+3 remotes, +3 sockets]
         0.0          0.0          0.0   firefox.50924                   en0           Established   2a06:99c1:3108::ac40:94eb.443  [+3 remotes, +3 sockets]
         0.0          0.0          0.0   firefox.50792                   en0           Established   34.108.243.93:443  [+1 remotes, +1 sockets]
-
+```
 
 ---
 
