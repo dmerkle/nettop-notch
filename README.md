@@ -157,4 +157,16 @@ PYTHONPATH=src pytest -q
 
 MIT — see [LICENSE](LICENSE).
 
+---
+
+## Disclaimer
+
+This project interfaces solely with the publicly available `nettop` utility that is included with macOS.
+It does **not modify, redistribute, or attempt to interfere with** any Apple software or system component.
+
+The functionality of this tool is equivalent to manually invoking `nettop` from the command line and formatting its standard output.
+No privileged access, code injection, or undocumented system calls are used.
+
+This project is an independent open-source effort and is **not affiliated with, endorsed by, or sponsored by Apple Inc.**
+Users are responsible for ensuring that their usage complies with relevant local policies or regulations when monitoring network activity.
 
