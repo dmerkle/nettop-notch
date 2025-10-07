@@ -69,7 +69,7 @@ nettop rates watch  [2025-10-07T09:35:06]  interval=3.0s  group=process  thresho
 ### Clone & run
 
 ```bash
-git clone https://github.com/<you>/nettop-notch.git
+git clone https://github.com/dmerkle/nettop-notch.git
 cd nettop-notch
 PYTHONPATH=src ./bin/nettop-notch --bg trueblack -- -t external
 ```
