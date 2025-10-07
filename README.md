@@ -144,13 +144,6 @@ Please keep:
 * responsive rendering in narrow/wide terminals,
 * and non-UI output stable (useful for logs).
 
-### Testing locally
-
-```bash
-# From repo root:
-PYTHONPATH=src pytest -q
-```
-
 ---
 
 ## License
