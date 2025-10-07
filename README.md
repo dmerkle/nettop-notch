@@ -126,6 +126,7 @@ nettop-notch -- -t wifi -m tcp
 * On older macOS (e.g., **Catalina**), `curses` is available by default; no extra libraries needed.
 * If DNS lookups slow you down, note we call `nettop` with `-n` (no DNS) by default.
 * For VPN traffic, `utun` interfaces are recognized and de-prioritized after physical interfaces when picking the primary interface label.
+* The default metric Δ = |IN‒OUT| is intentionally used for sorting, as it naturally deprioritizes symmetric traffic (e.g. VPN/tunnel connections where upstream and downstream rates are almost equal), allowing asymmetric or potentially anomalous flows to stand out immediately.
 
 ---
 
