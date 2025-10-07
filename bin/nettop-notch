@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# tiny launcher so users can run `./bin/nettop-notch` after cloning
+set -euo pipefail
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+PYTHON="${PYTHON:-python3}"
+exec "$PYTHON" -m nettop_notch.cli "$@"
+

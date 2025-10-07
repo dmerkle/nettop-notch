@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nettop-notch"
+version = "0.1.0"
+description = "Interactive macOS nettop rate viewer (Δ/Σ KB/s) with curses UI and non-UI fallback."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "dmerkle" }]
+requires-python = ">=3.8"
+keywords = ["nettop", "macos", "network", "cli", "curses"]
+
+[project.scripts]
+nettop-notch = "nettop_notch.cli:main"
+
