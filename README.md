@@ -137,7 +137,7 @@ This tool **does not** send any data anywhere. It only invokes the local `nettop
 
 ## Contributing
 
-This was meant for personal convenience only, PRs are handled infrequently. Feel free to clone and reuse.
+This was meant for personal convenience only, PRs are handled infrequently. 
 Please keep:
 
 * no external Python dependencies,
